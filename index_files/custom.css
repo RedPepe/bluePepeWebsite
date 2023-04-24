@@ -1,0 +1,22 @@
+.partners-mosaic {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.partners-mosaic .partners-item {
+	width: 32%;
+	border: 3px solid #00abff;
+	border-radius: 16px;
+	box-sizing: border-box;
+	padding: 2rem;
+	margin-bottom: 1rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.partners-mosaic .partners-item img {
+	width: 100%;
+	height: auto;
+}
